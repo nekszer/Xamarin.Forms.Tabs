@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Forms.Tabs", "Xamarin.Forms.Tabs.csproj", "{B8AEF672-4263-4082-AEED-1CB907BDEE41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8AEF672-4263-4082-AEED-1CB907BDEE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AEF672-4263-4082-AEED-1CB907BDEE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AEF672-4263-4082-AEED-1CB907BDEE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AEF672-4263-4082-AEED-1CB907BDEE41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D38BB23E-30E4-4E40-9F37-02C000BAD6EB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Daniel López</Authors>
+    <Description>Tabs simples en Xamarin Forms</Description>
+    <PackageProjectUrl>https://github.com/nekszer/Xamarin.Forms.Tabs</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/nekszer/Xamarin.Forms.Tabs</RepositoryUrl>
+    <PackageTags>Tabs Xamarin Forms</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\NEKSZ\OneDrive\Escritorio\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

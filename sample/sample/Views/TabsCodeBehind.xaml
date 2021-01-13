@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="sample.TabsCodeBehind"
+             xmlns:Tabs="clr-namespace:Xamarin.Forms.Tabs;assembly=Xamarin.Forms.Tabs">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Tabs:TabHostView Grid.Row="0" SelectedColor="White" UnselectedColor="Gray" BackgroundColor="DodgerBlue" HeightRequest="45" TabMode="Fixed" SelectedIndexChanged="TabHostView_SelectedIndexChanged"
+                          CornerRadius="0">
+            <Tabs:TabHostView.Tabs>
+                <!-- Tabs -->
+                <Tabs:SimpleTab Text="Tab 1" />
+                <Tabs:SimpleTab Text="Tab 2" />
+            </Tabs:TabHostView.Tabs>
+        </Tabs:TabHostView>
+
+        <ScrollView  Grid.Row="1">
+            <Tabs:ViewSwitcher x:Name="Switcher" ViewChanged="Switcher_ViewChanged">
+                <StackLayout>
+                    <!-- Contenido de la tab 1 -->
+                    <Label Text="1" />
+                </StackLayout>
+                <Grid>
+                    <!-- Contenido de la tab 2 -->
+                    <Label Text="2" />
+                </Grid>
+            </Tabs:ViewSwitcher>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>
